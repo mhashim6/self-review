@@ -70,6 +70,13 @@ export const onPlay = (action) => {
   player.addEventListener("play", cb);
   return () => player.removeEventListener("play", cb);
 };
+export const onTimeUpdate = (action) => {
+  const cb = () => {
+    action(player.src, player.currentTime);
+  };
+  player.addEventListener("timeupdate", cb);
+  return () => player.removeEventListener("timeupdate", cb);
+};
 export const onPause = (action) => {
   const cb = () => {
     action(player.src);
