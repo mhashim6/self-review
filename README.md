@@ -1,2 +1,2 @@
-# slash-lib :: `/lib`
-A series of articels and Artefacts directly from `/lib` directory in my _mostly_-JavaScript projects _[WIP]_
+# self-review _(WIP)_
+A series of articels on older code I made, where I critisie and comment on design choices, archeticture, and impelemntation.
